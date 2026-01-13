@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/warp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/warp/warp_{{ version }}.tar.gz
-  sha256: f57b544c75e3a2457a149a5ff0d5835ccfc917f8192440ef44fdf7d952197840
+  sha256: bdf3404b90ea5d1754242d87512b9d44c9a5825207d0010a956354266bda112a
 
 build:
   number: 0
